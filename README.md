@@ -39,13 +39,13 @@ smart-devices-project/
 ## ✅ Part 2: API Integration + Flask Display
 
 - **File**: `api_app.py`
-- **API Used**: `https://jsonplaceholder.typicode.com/posts`
+- **API Used**: `https://catfact.ninja/fact`
 - **Libraries**:
   - `requests`: to make API requests
   - `flask`: to serve a web page showing API data
 - **Functionality**:
   - Fetches API data and stores it in `output.json`
-  - Displays the first 10 posts on a web page using `Flask` and `Jinja2` template (`index.html`)
+  - Displays the fact on a web page using `Flask` template (`index.html`)
 
 ---
 
@@ -81,15 +81,10 @@ scraped_quotes.json
 ```
 output.json
 ```json
-[
-  {
-    "userId": 1,
-    "id": 1,
-    "title": "sunt aut facere repellat provident occaecati",
-    "body": "quia et suscipit\nsuscipit..."
-  },
-  ...
-]
+{
+  "fact": "The female cat reaches sexual maturity within 6 to 10 months; most veterinarians suggest spaying the female at 5 months, before her first heat period. The male cat usually reaches sexual maturity between 9 and 12 months.",
+  "length": 220
+}
 ```
 ## 📚 Learning Outcome
 - Understood how to scrape data from HTML pages
