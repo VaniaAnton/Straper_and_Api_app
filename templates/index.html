@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html>
-<head><title>API Posts</title></head>
+<head>
+    <title>Cat Fact Viewer</title>
+</head>
 <body>
-    <h1>API Data from JSONPlaceholder</h1>
-    <ul>
-    {% for post in posts %}
-        <li><strong>{{ post.title }}</strong><br>{{ post.body }}</li>
-    {% endfor %}
-    </ul>
+    <h1>Random Cat Fact 🐱</h1>
+    <p>{{ fact }}</p>
+    <form method="get" action="/">
+        <button type="submit">Get Another Fact</button>
+    </form>
 </body>
 </html>
