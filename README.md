@@ -13,13 +13,13 @@ This project demonstrates the basics of Python programming through:
 
 ## 🧩 Project Structure
 smart-devices-project/
-│
-├── scraper.py # Scraper for quotes website
-├── api_app.py # Flask app for API data visualization
-├── output.json # JSON output from API
-├── scraped_quotes.json # JSON output from web scraper
-└── templates/
-└── index.html # Template for displaying data in browser
+- │
+- ├─ scraper.py # Scraper for quotes website
+- ├── api_app.py # Flask app for API data visualization
+- ├── output.json # JSON output from API
+- ├── scraped_quotes.json # JSON output from web scraper
+- └── templates/
+- └── index.html # Template for displaying data in browser
 
 ---
 
